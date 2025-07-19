@@ -8,5 +8,5 @@ output "Webappname" {
   value = azurerm_app_service.linuxwebapp.name
 }
 output "app_service_url" {
-  value = azurerm_app_service.app.default_site_hostname
+  value = azurerm_app_service.linuxwebapp.default_site_hostname
 }
